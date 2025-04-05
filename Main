@@ -1,0 +1,11 @@
+public class Main {
+  public static void main(String[] args) {
+	  
+      PunctColorat punct = new PunctColorat(3, 4, "roșu");
+        
+ 
+      
+      System.out.println("Cordonatele punctului sunt: (" + punct.getX() + punct.getY() + ")");
+      System.out.println("Codul culorii este: " + punct.getCuloare());
+  }
+}
